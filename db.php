@@ -1,8 +1,10 @@
 <?php
-$conn = new mysqli("localhost", "root", "", "movie");
-$conn->set_charset("utf8");
-?>
+$server   = "localhost";
+$username = "root";
+$password = "";
+$database = "movie";
 
-
-
-
+$conn = mysqli_connect($server, $username, $password, $database);
+if (!$conn) {
+  die("Error" . mysqli_connect_error());
+}
