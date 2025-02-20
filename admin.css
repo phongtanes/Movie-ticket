@@ -1,0 +1,111 @@
+/* Reset พื้นฐาน */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f8f8;
+    color: #333333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+/* Header */
+h2 {
+    text-align: center;
+    color: #444;
+    margin-top: 20px;
+}
+
+/* Form สำหรับเพิ่มภาพยนตร์ */
+form {
+    background-color: rgba(138, 18, 104, 0.3);
+    max-width: 700px;
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+input[type="text"], input[type="date"], input[type="number"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #400841;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.button-container {
+    text-align: right;
+    margin-right: 75px;
+}
+
+button {
+    background-color: #257058;
+    color: #fff;
+    border: none;
+    padding: 10px 5px;
+    border-radius: 15px;
+    cursor: pointer;
+    width: 75px;
+    margin-top: 10px;
+}
+
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* ตารางแสดงรายการภาพยนตร์ */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    padding: 12px 15px;
+    text-align: center;
+    border-bottom: 1px solid #ddd;
+}
+
+th {
+    background-color: #40003e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #555555;
+}
+tr:nth-child(odd) {
+    background-color: #797979;
+}
+
+tr:hover {
+    background-color: #313131;
+}
+
+/* ลิงก์แก้ไขและลบ */
+a {
+    text-decoration: none;
+    color: #007bff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+a:hover {
+    background-color: #007bff;
+    color: white;
+}
+
+/* ปุ่มย้อนกลับ */
+button[onclick] {
+    background-color: #3e6f9a;
+}
+
+button[onclick]:hover {
+    background-color: #264666;
+}

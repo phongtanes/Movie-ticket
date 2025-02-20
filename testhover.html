@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* สไตล์เริ่มต้นของปุ่ม */
+.animated-btn {
+    padding: 15px 30px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease; /* การเปลี่ยนแปลงเมื่อ hover */
+}
+
+/* เมื่อทำ hover บนปุ่ม */
+.animated-btn:hover {
+    transform: scale(1.1);  /* ทำให้ขนาดปุ่มใหญ่ขึ้น */
+    background-color: #45a049; /* เปลี่ยนสีพื้นหลัง */
+}
+
+    </style>
+</head>
+<body>
+    <button class="animated-btn">กดปุ่มนี้</button>
+</body>
+</html>

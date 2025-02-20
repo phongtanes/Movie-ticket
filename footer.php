@@ -1,0 +1,1 @@
+<p>&copy; 2025 Movie Booking. This is Studie Project.</p>

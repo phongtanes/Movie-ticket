@@ -1,0 +1,198 @@
+/* ---------------- */
+/* Modal Container */
+/* ---------------- */
+.modal-content {
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.9);
+    background: #000000;
+    overflow: hidden;
+}
+
+/* ---------------- */
+/* Header */
+/* ---------------- */
+.modal-header {
+    background: linear-gradient(135deg, #a70a5d,#5e074b );
+    color: white;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    padding: 15px 20px;
+}
+
+.modal-title {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.btn-close {
+    filter: invert(1);
+}
+
+/* ---------------- */
+/* Nav Tabs */
+/* ---------------- */
+.nav-tabs {
+    border-bottom: 2px solid #9f0363;
+}
+
+.nav-link {
+    color: #000000;
+    font-weight: 500;
+    padding: 10px 20px;
+}
+.nav-tabs .nav-link:hover {
+    color: #c258ff; /* สีส้มเมื่อชี้ */
+}
+
+.nav-tabs .nav-link.active {
+    color: rgb(83, 0, 52);          /* สีข้อความเมื่อเลือก */
+    background-color: rgba(149, 14, 106, 0.3); /* พื้นหลังของ Active Tab */
+    border-radius: 10px 10px 0 0;
+}
+
+/* ---------------- */
+/* Form Inputs */
+/* ---------------- */
+.form-control {
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    padding: 12px 15px;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+    outline: none;
+}
+
+/* ---------------- */
+/* Buttons */
+/* ---------------- */
+.btn-primary {
+    width: 100%;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #007bff;
+    border: none;
+    font-size: 16px;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+    transform: translateY(-2px);
+}
+
+/* ---------------- */
+/* Modal Body */
+/* ---------------- */
+.modal-body {
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+/* ---------------- */
+/* Tab Content */
+/* ---------------- */
+.tab-content {
+    padding: 10px 0;
+}
+
+/* ---------------- */
+/* Responsive */
+/* ---------------- */
+@media (max-width: 576px) {
+    .modal-dialog {
+        margin: 10px;
+    }
+
+    .modal-title {
+        font-size: 18px;
+    }
+
+    .form-control {
+        font-size: 14px;
+    }
+}
+/* Container ของฟอร์ม */
+#loginForm {
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 12px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* ช่อง Input */
+#loginForm .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* เมื่อคลิกในช่อง Input */
+#loginForm .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* ปุ่ม Login */
+#loginBtn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #a70a5d,#5e074b );
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover บนปุ่ม */
+#loginBtn:hover {
+    background: linear-gradient(135deg, #8f0850,#4e063e );
+}
+
+/* ระยะห่างระหว่าง input */
+.mb-3 {
+    margin-bottom: 15px;
+}
+#registerForm .form-control {
+    border-radius: 8px;
+    padding: 12px;
+    border: 1px solid #ddd;
+    background-color: #fff;
+    transition: all 0.3s ease;
+}
+
+/* เมื่อคลิกในช่อง Input */
+#registerForm .form-control:focus {
+    border-color: #007bff;
+    box-shadow: 0 0 8px rgba(0, 123, 255, 0.5);
+}
+
+/* ปุ่ม Login */
+#registerBtn {
+    width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    background: linear-gradient(135deg, #a70a5d,#5e074b );
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hover บนปุ่ม */
+#registerBtn:hover {
+    background: linear-gradient(135deg, #8f0850,#4e063e );
+}
+
+/* ระยะห่างระหว่าง input */
+.mb-3 {
+    margin-bottom: 15px;
+}

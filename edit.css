@@ -1,0 +1,92 @@
+/* ตั้งค่าพื้นฐาน */
+body {
+    background-image: url(https://wallpapers.com/images/hd/black-blur-background-b21117e1rgm111p3.jpg);
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+/* หัวข้อ */
+h2 {
+    color: #ffcc00;
+}
+
+/* ฟอร์ม */
+form {
+    background-color: #1e1e1e;
+    padding: 20px;
+    border-radius: 10px;
+    max-width: 400px;
+    margin: 20px auto;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #333;
+    border-radius: 5px;
+    background-color: #2a2a2a;
+    color: #fff;
+}
+
+button {
+    background-color: #ffcc00;
+    color: #121212;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+button:hover {
+    background-color: #ffaa00;
+}
+
+/* ตาราง */
+table {
+    width: 90%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    background-color: #1e1e1e;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+th, td {
+    border: 1px solid #333;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #ffcc00;
+    color: #121212;
+}
+
+td {
+    background-color: #2a2a2a;
+}
+
+/* ลิงก์ */
+a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #ffaa00;
+    text-decoration: underline;
+}
+
+/* ปรับขนาดโปสเตอร์ */
+img {
+    width: 50px;
+    height: auto;
+    border-radius: 5px;
+}
